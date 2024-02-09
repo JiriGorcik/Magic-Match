@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react"
 import Card from "./components/Card"
 
 const cardImages = [
-  { src: "./src/assets/helmet-1.png", matched: false },  
-  { src: "./src/assets/potion-1.png", matched: false },
-  { src: "./src/assets/ring-1.png", matched: false },
-  { src: "./src/assets/scroll-1.png", matched: false },
-  { src: "./src/assets/shield-1.png", matched: false },
-  { src: "./src/assets/sword-1.png", matched: false }
+  { src: "./helmet-1.png", matched: false },  
+  { src: "./potion-1.png", matched: false },
+  { src: "./ring-1.png", matched: false },
+  { src: "./scroll-1.png", matched: false },
+  { src: "./shield-1.png", matched: false },
+  { src: "./sword-1.png", matched: false },
 ]
 
 const App = () => {

@@ -17,7 +17,7 @@ const Card = ({ card, handleChoice, flipped, disabled }) => {
           alt="card front"
         />
         <img
-          src="./src/assets/cover.png"
+          src="./cover.png"
           className="back w-full block border-2 border-solid border-white rounded-md"
           onClick={handleClick}
           alt="card back"
